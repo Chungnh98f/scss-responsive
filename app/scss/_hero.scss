@@ -70,13 +70,6 @@
     &__text {
         text-align: center;
 
-        h1 {
-            margin-bottom: 1.5rem;
-        }
-
-        p {
-            margin-bottom: 2.25rem;
-        }
         @include breakpoint-up(large) {
             flex: 2;
             order: 1;

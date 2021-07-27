@@ -1,18 +1,30 @@
-h1 {
+h1,
+h2,
+h3 {
+    margin-top: 0;
     font-weight: 300;
-    font-size: 2.3125rem;
     line-height: 1.15;
     color: $darkBlue;
-    @include breakpoint-up(medium) {
-        font-size: $font-xlg;
-  }
 }
 
-h1,h2,h3 {
-  margin-top: 0;
+h1 {
+    font-size: 2.3125rem;
+    margin-bottom: 1.5rem;
+    @include breakpoint-up(medium) {
+        font-size: $font-xlg;
+    }
+}
 
+h2 {
+    font-size: 1.875rem;
+    margin-bottom: 1.5625rem;
+    @include breakpoint-up(medium) {
+        font-size: 2.25rem;
+        margin-bottom: 2.25rem;
+    }
 }
 
 p {
-  line-height: 1.5;
+    line-height: 1.5;
+    margin-bottom: 2.25rem;
 }
