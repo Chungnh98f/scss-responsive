@@ -1,0 +1,18 @@
+h1 {
+    font-weight: 300;
+    font-size: 2.3125rem;
+    line-height: 1.15;
+    color: $darkBlue;
+    @include breakpoint-up(medium) {
+        font-size: $font-xlg;
+  }
+}
+
+h1,h2,h3 {
+  margin-top: 0;
+
+}
+
+p {
+  line-height: 1.5;
+}
